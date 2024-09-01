@@ -1,4 +1,19 @@
 import React from 'react';
+import businessImage from '../assets/images/gabagool1.jpeg'
+
+// Hardcoded Test Business (filler)
+
+const business = {
+    imageSrc: businessImage,
+    name: 'Gabagool Gallery',
+    address: '123 Main Street',
+    city: 'New York',
+    state: 'NY',
+    postcode: '10001',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+};
 
 // Business Component
 
@@ -6,20 +21,20 @@ const Business = () => {
     return (
         <div className='business'>
             <div className='image-container'>
-                <img src='#' alt='Business' />
+                <img src={business.imageSrc} alt={business.name} />
             </div>
-            <h2>Business Name</h2>
+            <h2>{business.name}</h2>
             <div className='business-information'>
                 <div className='business-address'>
-                    <p>120 Gabagool Cnr</p>
-                    <p>City</p>
-                    <p>state</p>
-                    <p>Post Code</p>
+                    <p>{business.address}</p>
+                    <p>{business.city}</p>
+                    <p>{business.state}</p>
+                    <p>{business.postcode}</p>
                 </div>
                 <div className='business-details'>
-                    <h3>Category</h3>
-                    <h3 className='rating'>4.5 Gabagools</h3>
-                    <p>reviews</p>
+                    <h3>{business.category}</h3>
+                    <h3 className='rating'>{business.rating}</h3>
+                    <p>{business.reviewCount} reviews</p>
                 </div>
             </div>
         </div>
