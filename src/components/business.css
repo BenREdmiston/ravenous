@@ -1,0 +1,41 @@
+.business {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .business h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .business-information {
+    margin-top: 10px;
+  }
+  
+  .business-address p {
+    margin: 0;
+  }
+  
+  .business-details {
+    margin-top: 10px;
+  }
+  
+  .business-details h3 {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  .business-details .rating {
+    color: #ff9900;
+  }
