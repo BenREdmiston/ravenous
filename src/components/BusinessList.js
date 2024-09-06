@@ -1,8 +1,8 @@
 import React from 'react';
 import Business from './Business';
-import './BusinessList.css'; // Import the CSS file for styling
+import './BusinessList.css'; 
 
-// Define an array of business objects
+// Array of business objects
 const businesses = [
   {
     id: 1,
@@ -27,12 +27,84 @@ const businesses = [
     category: 'American',
     rating: 4.7,
     reviewCount: 120
+  },
+  {
+    id: 3,
+    imageSrc: 'https://via.placeholder.com/150',
+    name: 'Gabagool Gallery',
+    address: '123 Main Street',
+    city: 'New York',
+    state: 'NY',
+    postcode: '10001',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+  },
+  {
+    id: 4,
+    imageSrc: 'https://via.placeholder.com/150',
+    name: 'Gabagool Gallery',
+    address: '123 Main Street',
+    city: 'New York',
+    state: 'NY',
+    postcode: '10001',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+  },
+  {
+    id: 5,
+    imageSrc: 'https://via.placeholder.com/150',
+    name: 'Gabagool Gallery',
+    address: '123 Main Street',
+    city: 'New York',
+    state: 'NY',
+    postcode: '10001',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+  },
+  {
+    id: 6,
+    imageSrc: 'https://via.placeholder.com/150',
+    name: 'Gabagool Gallery',
+    address: '123 Main Street',
+    city: 'New York',
+    state: 'NY',
+    postcode: '10001',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+  },
+  {
+    id: 7,
+    imageSrc: 'https://via.placeholder.com/150',
+    name: 'Gabagool Gallery',
+    address: '123 Main Street',
+    city: 'New York',
+    state: 'NY',
+    postcode: '10001',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+  },
+  {
+    id: 8,
+    imageSrc: 'https://via.placeholder.com/150',
+    name: 'Gabagool Gallery',
+    address: '123 Main Street',
+    city: 'New York',
+    state: 'NY',
+    postcode: '10001',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
   }
-  // Add more business objects as needed
+  // Add more business objects here
 ];
 
-// Define the BusinessList component
-const BusinessList = () => {
+// Business list function
+function BusinessList() {
   return (
     <div className="business-list">
       {businesses.map(business => (

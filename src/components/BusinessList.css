@@ -1,6 +1,6 @@
 .business-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     margin: 20px;
   }

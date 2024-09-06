@@ -7,10 +7,8 @@ import { clear } from '@testing-library/user-event/dist/clear';
 function App() {
   return (
     <div>
-      <h1>Ravenous Test</h1>
-      <Business />
+      <h1>Feeling Hungry?</h1>
       <BusinessList />
-      
     </div>
   );
 }
