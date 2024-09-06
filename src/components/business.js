@@ -1,6 +1,5 @@
 import React from 'react';
 import './business.css';
-import businessImage from '../assets/images/gabagool1.jpeg'
 
 function Business ({ imageSrc, name, address, city, state, postcode, category, rating, reviewCount }) {
     return (

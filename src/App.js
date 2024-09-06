@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Business from './components/Business';
 import BusinessList from './components/BusinessList';
-import { clear } from '@testing-library/user-event/dist/clear';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
     <div>
       <h1>Feeling Hungry?</h1>
+      <SearchBar />
       <BusinessList />
     </div>
   );
