@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Business from './components/business';
+import Business from './components/Business';
+import BusinessList from './components/BusinessList';
 import { clear } from '@testing-library/user-event/dist/clear';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <div>
       <h1>Ravenous Test</h1>
       <Business />
+      <BusinessList />
+      
     </div>
   );
 }
