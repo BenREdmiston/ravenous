@@ -1,4 +1,5 @@
 import React from 'react';
+import './business.css';
 import businessImage from '../assets/images/gabagool1.jpeg'
 
 // Hardcoded Test Business (filler)
