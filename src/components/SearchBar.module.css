@@ -1,0 +1,35 @@
+.SearchBarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.SearchSortingOptions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.SearchSortingOptions li {
+    display: inline;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.SearchSortingOptions li:not(:last-child)::after {
+    content: "|";
+    margin-left: 15px; 
+}
+
+.SearchInputFields {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.SearchButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

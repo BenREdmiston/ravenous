@@ -1,4 +1,5 @@
-import './App.css';
+// import "./App.css";
+import Styles from '../src/components/SearchBar.module.css';
 import BusinessList from './components/BusinessList';
 import SearchBar from './components/SearchBar';
 
@@ -6,8 +7,8 @@ function App() {
   return (
     <div>
       <h1>Feeling Hungry?</h1>
-      <SearchBar />
-      <BusinessList />
+      <div><SearchBar /></div>
+      <div><BusinessList /></div>
     </div>
   );
 }

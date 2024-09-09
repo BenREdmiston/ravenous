@@ -1,4 +1,5 @@
 import React from "react";
+import Styles from './SearchBar.module.css';
 
 const sortingOptions = {
     "Best Match": "best_match",
@@ -15,15 +16,15 @@ class SearchBar extends React.Component {
 
 render() {
     return (
-        <div className='SearchBar'>
-            <div className="SearchSortingOptions">
-                <ul>{this.renderSortingOptions()}</ul>
-            </div>
-            <div className="SearchInputFields">
+        <div className={Styles.SearchBarContainer}>
+            <ul className={Styles.SearchSortingOptions}>
+                {this.renderSortingOptions()}
+            </ul>
+            <div className={Styles.SearchInputFields}>
             <input placeholder="Search Businesses" />
             <input placeholder="Location" />
             </div>
-            <div className="SearchButton">
+            <div className={Styles.SearchButton}>
                 <button>Lets Eat!</button>
             </div>
         </div>
@@ -32,3 +33,4 @@ render() {
 }
 
 export default SearchBar;
+
