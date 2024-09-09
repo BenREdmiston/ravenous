@@ -24,8 +24,8 @@ render() {
             <input placeholder="Search Businesses" />
             <input placeholder="Location" />
             </div>
-            <div className={Styles.SearchButton}>
-                <button>Lets Eat!</button>
+            <div>
+                <button className={Styles.SearchButton}>Lets Eat!</button>
             </div>
         </div>
     );

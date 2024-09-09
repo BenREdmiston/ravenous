@@ -3,6 +3,13 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    margin-top: 0%;
+    height: 12rem;
+    background-image: url(../assets/images/foodpic-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .SearchSortingOptions {
@@ -15,6 +22,15 @@
     display: inline;
     margin-right: 15px;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #fff;
+    text-shadow:
+      1.5px 1.5px 0 #000,
+      -1.5px 1.5px 0 #000,
+      -1.5px -1.5px 0 #000,
+      1.5px -1.5px 0 #000;
+
 }
 
 .SearchSortingOptions li:not(:last-child)::after {
@@ -28,8 +44,27 @@
     margin-top: 10px;
 }
 
+.SearchInputFields input {
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+}
+
+.ButtonCont {
+    display: flex;
+    justify-content: center;
+}
+
 .SearchButton {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-}
+    border-radius: 10px;
+    background-color: darkorange;
+    font-size: 25px;
+} 
+

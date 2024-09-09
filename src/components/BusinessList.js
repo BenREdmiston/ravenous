@@ -1,12 +1,15 @@
 import React from 'react';
 import Business from './Business';
 import './BusinessList.css'; 
+import gabagool from "../assets/images/gabagool1.jpeg"
+import burger from "../assets/images/burger.jpg"
+import pasta from "../assets/images/pasta.jpg"
 
 // Array of business objects
 const businesses = [
   {
     id: 1,
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: pasta,
     name: 'Pasta Palace',
     address: '123 Main Street',
     city: 'New York',
@@ -18,7 +21,7 @@ const businesses = [
   },
   {
     id: 2,
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: burger,
     name: 'Burger Barn',
     address: '456 Side Avenue',
     city: 'Brooklyn',
@@ -30,7 +33,7 @@ const businesses = [
   },
   {
     id: 3,
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: gabagool,
     name: 'Gabagool Gallery',
     address: '123 Main Street',
     city: 'New York',
@@ -42,7 +45,7 @@ const businesses = [
   },
   {
     id: 4,
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: gabagool,
     name: 'Gabagool Gallery',
     address: '123 Main Street',
     city: 'New York',
@@ -54,7 +57,7 @@ const businesses = [
   },
   {
     id: 5,
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: gabagool,
     name: 'Gabagool Gallery',
     address: '123 Main Street',
     city: 'New York',
@@ -66,7 +69,7 @@ const businesses = [
   },
   {
     id: 6,
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: gabagool,
     name: 'Gabagool Gallery',
     address: '123 Main Street',
     city: 'New York',
@@ -78,7 +81,7 @@ const businesses = [
   },
   {
     id: 7,
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: gabagool,
     name: 'Gabagool Gallery',
     address: '123 Main Street',
     city: 'New York',
@@ -90,7 +93,19 @@ const businesses = [
   },
   {
     id: 8,
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: gabagool,
+    name: 'Gabagool Gallery',
+    address: '123 Main Street',
+    city: 'New York',
+    state: 'NY',
+    postcode: '10001',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+  },
+  {
+    id: 9,
+    imageSrc: gabagool,
     name: 'Gabagool Gallery',
     address: '123 Main Street',
     city: 'New York',
